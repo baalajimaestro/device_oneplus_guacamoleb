@@ -15,7 +15,7 @@ $(call inherit-product, device/oneplus/guacamoleb/device.mk)
 $(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := potato_guacamoleb
+PRODUCT_NAME := aosp_guacamoleb
 PRODUCT_DEVICE := guacamoleb
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus 7
@@ -24,6 +24,7 @@ PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 PRODUCT_CHARACTERISTICS := nosdcard
+TARGET_GAPPS_ARCH := arm64
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
